@@ -1,9 +1,9 @@
 # [Jhett Carr]
 ## [Assignment #4]
-## [Submission date: 10/1/24]
+## [Submission date: 10/2/24]
 ## Worked with/sources 
-* example
-* example
+* Ireeann Anderson
+* Online Python
 * example
 * example
 ## Project Quirks/ Things that don't work
