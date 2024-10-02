@@ -5,7 +5,7 @@
 * Kaleb Moler
 * Online Python
 * Ireeann Anderson
-* example
+* Jay Trujillo
 ## Project Quirks/ Things that don't work
 * example
 * example
