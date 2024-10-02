@@ -2,9 +2,9 @@
 ## [Assignment #4]
 ## [Submission date: 10/2/24]
 ## Worked with/sources 
-* Ireeann Anderson
+* Kaleb Moler
 * Online Python
-* example
+* Ireeann Anderson
 * example
 ## Project Quirks/ Things that don't work
 * example
