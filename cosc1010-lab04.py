@@ -4,9 +4,10 @@
 # Lab 03 
 # Lab Section: 15
 # Sources, people worked with, help given to: 
-# Ireeann Anderson
+# Kaleb Moler
 # Online Python
-# here
+# Ireeann Anderson
+#Jay Trujillo
 
 
 
@@ -98,22 +99,21 @@ min_temps = [
 # Write a single for loop to calculate both the average maximum temperature and the average minimum temperature.
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
-max_sums=0
-for avg_max in max_temps:
-    max_sums += avg_max
-    avg_max = max_sums / len(max_temps)
-print(f"The average max temperature is {avg_max}")
+min_avg = min_temps[0]
+max_avg = max_temps[0]
+i=1
+while(i<len(min_temps)):
+    min_avg += min_temps[i]
+    max_avg += max_temps[i]
+    i=i+1
+    
+min_avg = min_avg / len(min_temps)
+max_avg = max_avg / len(max_temps)
+print(f"The minimum average temp is {min_avg}, and the max average temp is {max_avg}")
 
-max_sums=0
-for avg_min in min_temps:
-    max_sums += avg_min
-    avg_min = max_sums / len(min_temps)
-print(f"The average minimum temperature is {avg_min}")
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 print("--------------------------------------------------------------")
 max_temps.sort()
-print(f"The highest temperature in the max_temp list is {max_temps[-1]}, and the lowest record recorded temperature from that list is {max_temps[0]}")
 min_temps.sort()
-print(f"The highest recorded temperature from the min_temp list is {min_temps[-1]}, and the lowest recorded temperature from that list is {min_temps[0]}")
-
+print(f"The highest recorded temperature is {max_temps[-1]}, and the lowest recorded temperature is {min_temps[0]}")
