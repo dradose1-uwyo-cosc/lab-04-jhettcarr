@@ -100,14 +100,15 @@ min_temps = [
 # Output the results of both calculations.
 max_sums=0
 
+max_sums=0
 for avg_max in max_temps:
     max_sums += avg_max
-    avg_max = (max_sums / len(max_temps))
+    avg_max = max_sums / len(max_temps)
 print(f"The average max temperature is {avg_max}")
 
 for avg_min in min_temps:
     max_sums += avg_min
-    avg_min = (max_sums / len(min_temps))
+    avg_min = max_sums / len(min_temps)
 print(f"The average minimum temperature is {avg_min}")
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
